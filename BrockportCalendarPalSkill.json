@@ -1,0 +1,640 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "calendar helper",
+            "intents": [
+                {
+                    "name": "DateRequestIntent",
+                    "slots": [
+                        {
+                            "name": "Event",
+                            "type": "eventType",
+                            "samples": [
+                                "{Event}"
+                            ]
+                        },
+                        {
+                            "name": "Semester",
+                            "type": "semesterType",
+                            "samples": [
+                                "{Semester}  semester",
+                                "{Semester}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "when is {Event} in {Semester}",
+                        "what is {Event} {Semester}",
+                        "what is {Event} for {Semester}",
+                        "when are {Event} for {Semester}",
+                        "when are the {Event} for {Semester}",
+                        "when is {Event} for {Semester}",
+                        "when does {Event} for {Semester}",
+                        "when will {Event} for {Semester}",
+                        "when {Event} for {Semester}",
+                        "on what date is {Event} for {Semester}",
+                        "on what date is the {Event} for {Semester}",
+                        "on what date are {Event} for {Semester}",
+                        "on what date are the {Event} for {Semester}",
+                        "on what date does {Event} for {Semester}",
+                        "on what date does the {Event} for {Semester}",
+                        "on what date will {Event} end for {Semester}",
+                        "on what date will the {Event} for {Semester}",
+                        "on what date is {Event} ending for {Semester}",
+                        "on what date is the {Event} ending for {Semester}",
+                        "on which day do {Event} in {Semester}",
+                        "on which day do {Event} for {Semester}",
+                        "on which day do {Event} resume in {Semester}",
+                        "on which day do {Event} resume for {Semester}",
+                        "on which day is {Event} in {Semester}",
+                        "on which day is {Event} for {Semester}",
+                        "on which day is {Event} resume in {Semester}",
+                        "on which day is {Event} resume for {Semester}",
+                        "on which day does {Event} in {Semester}",
+                        "on which day does {Event} for {Semester}",
+                        "on which day does {Event} in {Semester}",
+                        "on which day does {Event} in {Semester}",
+                        "on which day will {Event} in {Semester}",
+                        "on which day will {Event} for {Semester}",
+                        "on which day will {Event} in {Semester}",
+                        "which day will {Event} resume for {Semester}",
+                        "what date is {Event} for {Semester}",
+                        "what date is the {Event} for {Semester}",
+                        "what date are {Event} for {Semester}",
+                        "what date are the {Event} for {Semester}",
+                        "what date does {Event} for {Semester}",
+                        "what date does the {Event} for {Semester}",
+                        "what date will {Event} end for {Semester}",
+                        "what date will the {Event} for {Semester}",
+                        "what date is {Event} ending for {Semester}",
+                        "what date is the {Event} ending for {Semester}",
+                        "which day do {Event} in {Semester}",
+                        "which day do {Event} for {Semester}",
+                        "which day do {Event} resume in {Semester}",
+                        "which day do {Event} resume for {Semester}",
+                        "which day is {Event} in {Semester}",
+                        "which day is {Event} for {Semester}",
+                        "which day is {Event} resume in {Semester}",
+                        "which day is {Event} resume for {Semester}",
+                        "which day does {Event} in {Semester}",
+                        "which day does {Event} for {Semester}",
+                        "which day does {Event} in {Semester}",
+                        "which day does {Event} in {Semester}",
+                        "which day will {Event} in {Semester}",
+                        "which day will {Event} for {Semester}",
+                        "which day will {Event} in {Semester}",
+                        "which day will {Event} resume for {Semester}",
+                        "when are {Event}  {Semester}",
+                        "when are the {Event}  {Semester}",
+                        "when is {Event}  {Semester}",
+                        "when does {Event}  {Semester}",
+                        "when will {Event}  {Semester}",
+                        "when {Event}  {Semester}",
+                        "on what date is {Event}  {Semester}",
+                        "on what date is the {Event}  {Semester}",
+                        "on what date are {Event}  {Semester}",
+                        "on what date are the {Event}  {Semester}",
+                        "on what date does {Event}  {Semester}",
+                        "on what date does the {Event}  {Semester}",
+                        "on what date will {Event} end  {Semester}",
+                        "on what date will the {Event}  {Semester}",
+                        "on what date is {Event} ending  {Semester}",
+                        "on what date is the {Event} ending  {Semester}",
+                        "on which day do {Event} in {Semester}",
+                        "on which day do {Event}  {Semester}",
+                        "on which day do {Event} resume in {Semester}",
+                        "on which day do {Event} resume  {Semester}",
+                        "on which day is {Event} in {Semester}",
+                        "on which day is {Event} {Semester}",
+                        "on which day is {Event} resume in {Semester}",
+                        "on which day is {Event} resume  {Semester}",
+                        "on which day does {Event} in {Semester}",
+                        "on which day does {Event} {Semester}",
+                        "on which day does {Event} in {Semester}",
+                        "on which day does {Event} in {Semester}",
+                        "on which day will {Event} in {Semester}",
+                        "on which day will {Event} {Semester}",
+                        "on which day will {Event} in {Semester}",
+                        "which day will {Event} resume  {Semester}",
+                        "what date is {Event} {Semester}",
+                        "what date is the {Event} {Semester}",
+                        "what date are {Event} {Semester}",
+                        "what date are the {Event} {Semester}",
+                        "what date does {Event} {Semester}",
+                        "what date does the {Event} {Semester}",
+                        "what date will {Event} end  {Semester}",
+                        "what date will the {Event} {Semester}",
+                        "what date is {Event} ending  {Semester}",
+                        "what date is the {Event} ending  {Semester}",
+                        "which day do {Event} in {Semester}",
+                        "which day do {Event} {Semester}",
+                        "which day do {Event} resume in {Semester}",
+                        "which day do {Event} resume  {Semester}",
+                        "which day is {Event} in {Semester}",
+                        "which day is {Event} {Semester}",
+                        "which day is {Event} resume in {Semester}",
+                        "which day is {Event} resume  {Semester}",
+                        "which day does {Event} in {Semester}",
+                        "which day does {Event} {Semester}",
+                        "which day does {Event} in {Semester}",
+                        "which day does {Event} in {Semester}",
+                        "which day will {Event} in {Semester}",
+                        "which day will {Event} {Semester}",
+                        "which day will {Event} in {Semester}",
+                        "which day will {Event} resume  {Semester}",
+                        "when are {Event} {Semester}",
+                        "when are the {Event} {Semester}",
+                        "when is {Event} {Semester}",
+                        "when does {Event} {Semester}",
+                        "when will {Event} {Semester}",
+                        "when {Event} {Semester}",
+                        "on what date is {Event} {Semester}",
+                        "on what date is the {Event} {Semester}",
+                        "on what date are {Event} {Semester}",
+                        "on what date are the {Event} {Semester}",
+                        "on what date does {Event} {Semester}",
+                        "on what date does the {Event} {Semester}",
+                        "on what date will {Event} end  {Semester}",
+                        "on what date will the {Event} {Semester}",
+                        "on what date is {Event} ending  {Semester}",
+                        "on what date is the {Event} ending  {Semester}",
+                        "on which day do {Event} in {Semester}",
+                        "on which day do {Event} {Semester}",
+                        "on which day do {Event} resume in {Semester}",
+                        "on which day do {Event} resume  {Semester}",
+                        "on which day is {Event} in {Semester}",
+                        "on which day is {Event} {Semester}",
+                        "on which day is {Event} resume in {Semester}",
+                        "on which day is {Event} resume  {Semester}",
+                        "on which day does {Event} in {Semester}",
+                        "on which day does {Event} {Semester}",
+                        "on which day does {Event} in {Semester}",
+                        "on which day does {Event} in {Semester}",
+                        "on which day will {Event} in {Semester}",
+                        "on which day will {Event} {Semester}",
+                        "on which day will {Event} in {Semester}",
+                        "which day will {Event} resume  {Semester}",
+                        "what date is {Event} {Semester}",
+                        "what date is the {Event} {Semester}",
+                        "what date are {Event} {Semester}",
+                        "what date are the {Event} {Semester}",
+                        "what date does {Event} {Semester}",
+                        "what date does the {Event} {Semester}",
+                        "what date will {Event} end {Semester}",
+                        "what date will the {Event} {Semester}",
+                        "what date is {Event} ending {Semester}",
+                        "what date is the {Event} ending {Semester}",
+                        "which day do {Event} in {Semester}",
+                        "which day do {Event} {Semester}",
+                        "which day do {Event} resume in {Semester}",
+                        "which day do {Event} resume {Semester}",
+                        "which day is {Event} in {Semester}",
+                        "which day is {Event} {Semester}",
+                        "which day is {Event} resume in {Semester}",
+                        "which day is {Event} resume {Semester}",
+                        "which day does {Event} in {Semester}",
+                        "which day does {Event} {Semester}",
+                        "which day does {Event} in {Semester}",
+                        "which day does {Event} in {Semester}",
+                        "which day will {Event} in {Semester}",
+                        "which day will {Event} {Semester}",
+                        "which day will {Event} in {Semester}",
+                        "which day will {Event} resume {Semester}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "EventRequestIntent",
+                    "slots": [
+                        {
+                            "name": "Date",
+                            "type": "AMAZON.DATE",
+                            "samples": [
+                                "{Date}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "whats happening {Date}",
+                        "whats happening on {Date}",
+                        "what is on {Date}",
+                        "what is {Date}",
+                        "what is on the calendar {Date}",
+                        "what is on the calendar for {Date}",
+                        "what is on the calendar on {Date}",
+                        "what is happening {Date}",
+                        "what event is {Date}",
+                        "is there anything happening {Date}",
+                        "Is there anything happening on {Date}",
+                        "what is scheduled for {Date}",
+                        "what was scheduled on {Date}",
+                        "what was scheduled {Date}",
+                        "what is going on {Date}",
+                        "what was {Date}",
+                        "what happens on {Date}",
+                        "what happend on {Date}",
+                        "will anything happen on {Date}",
+                        "was anything happening on {Date}",
+                        "what is happening on {Date}",
+                        "what event is on {Date}"
+                    ]
+                },
+                {
+                    "name": "DaysUntilRequestIntent",
+                    "slots": [
+                        {
+                            "name": "Event",
+                            "type": "eventType",
+                            "samples": [
+                                "{Event}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "how many suns must set before {Event}",
+                        "{Event} how long",
+                        "when will {Event} happen",
+                        "how long until {Event}",
+                        "how many days until {Event}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "eventType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "test"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Commencement Ceremony (Graduate)",
+                                "synonyms": [
+                                    "graduate graduation"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Commencement Ceremony (Undergraduate)",
+                                "synonyms": [
+                                    "undergraduate graduation",
+                                    "graduation"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "final exam period ends",
+                                "synonyms": [
+                                    "final exams end",
+                                    "finals end"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Memorial Day, College Closed",
+                                "synonyms": [
+                                    "memorial day"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "regular course schedule ends (3) (2nd Quarter Ends)",
+                                "synonyms": [
+                                    "second quarter ends"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "last day of classes, regular course schedule ends (3) 4th quarter ends.",
+                                "synonyms": [
+                                    "last class",
+                                    "last day of classes",
+                                    "fourth quarter ends"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "4th quarter begins",
+                                "synonyms": [
+                                    "fourth quarter begins"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3rd quarter ends",
+                                "synonyms": [
+                                    "third quarter ends"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "full semester course drop period ends"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "withdraw period ends"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "deadline to withdraw without department chair permission",
+                                "synonyms": [
+                                    "withdraw without chair permission",
+                                    "deadline to withdraw"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "honors & awards ceremony",
+                                "synonyms": [
+                                    "honors ceremony",
+                                    "awards ceremoney",
+                                    "honors and awards ceremony"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Scholars Day (1) Only classes after 5 PM in session",
+                                "synonyms": [
+                                    "scholars day"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "final exam period begins",
+                                "synonyms": [
+                                    "final exams",
+                                    "final exams begin",
+                                    "finals start",
+                                    "final begins",
+                                    "finals",
+                                    "final"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "welcome week begins",
+                                "synonyms": [
+                                    "welcome week starting",
+                                    "welcome week starts",
+                                    "welcome week"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "instruction begins",
+                                "synonyms": [
+                                    "instruction starts",
+                                    "instruction"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "labor day"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "add period end"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "late add period end"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "constitution day"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "course drop period end"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "homecoming weekend",
+                                "synonyms": [
+                                    "homecoming"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "family weekend"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "midterms"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "break",
+                                "synonyms": [
+                                    "spring recess",
+                                    "spring break",
+                                    "midterm break",
+                                    "semester break",
+                                    "midsemester break"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "student progress evaluations due"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "instruction resume"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "deadline to withdraw without permission"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "thanksgiving"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "withdraw period end"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "regular course schedule end"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grades due from faculty",
+                                "synonyms": [
+                                    "grades due"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "semesterType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "spring"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fall"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "DateRequestIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "Event",
+                            "type": "eventType",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.173342820428.61308961230"
+                            }
+                        },
+                        {
+                            "name": "Semester",
+                            "type": "semesterType",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.173342820428.50002717627"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "EventRequestIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "Date",
+                            "type": "AMAZON.DATE",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.956607003730.1456666973166"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "DaysUntilRequestIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "Event",
+                            "type": "eventType",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1076480793619.1131407243864"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.173342820428.61308961230",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I'm sorry but what was the event you're searching for?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.173342820428.50002717627",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I'm sorry but what was the semester you're searching in?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.956607003730.1456666973166",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I'm sorry but what was the date?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1076480793619.1131407243864",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I'm sorry but what was the event you're searching for?"
+                    }
+                ]
+            }
+        ]
+    }
+}

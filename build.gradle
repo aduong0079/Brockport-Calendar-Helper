@@ -1,0 +1,55 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.jetbrains.kotlin.jvm' version '1.3.61'
+}
+
+group 'org.example'
+mainClassName = 'com.amazon.ask.airplanefacts.AirplaneFactsStreamHandler'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation 'com.amazon.alexa:ask-sdk:2.5.5'
+    implementation group: 'me.xdrop', name: 'fuzzywuzzy', version: '1.2.0'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.amazon.alexa', name: 'ask-sdk', version:'2.17.2'
+    compile group: 'com.amazonaws', name: 'aws-lambda-java-log4j2', version:'1.1.0'
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.7.2'
+    compile group: 'com.google.actions', name: 'actions-on-google', version: '1.+'
+    compile group: 'joda-time', name: 'joda-time', version: '2.10.5'
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+//jar {
+//    manifest {
+//        attributes(
+//                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+//                'Main-Class': 'TestBrockportMain'
+//        )
+//    }
+//}
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+                'Implementation-Version': version,
+                'Main-Class': 'com.amazon.ask.airplanefacts.AirplaneFactsStreamHandler'
+    }
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}

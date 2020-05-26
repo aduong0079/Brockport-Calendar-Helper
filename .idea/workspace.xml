@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GradleTest:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a716d1c-fec1-46d1-b8a7-05d2b45eb657" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BrockportCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BrockportCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/ask/calendarhelper/BrockportCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/ask/calendarhelper/BrockportCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/ask/calendarhelper/handlers/DateRequestIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/ask/calendarhelper/handlers/DateRequestIntentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/ask/calendarhelper/handlers/DaysUntilRequestIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/ask/calendarhelper/handlers/DaysUntilRequestIntentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/ask/calendarhelper/handlers/EventRequestIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/ask/calendarhelper/handlers/EventRequestIntentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$oduct Requirements Document.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZlpJewdNUZ7xzFtgEqSpWzitDK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39425287" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.amazon.ask.airplanefacts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zack\IdeaProjects\CalenderHelper(Backup)\src\main\java\com\amazon\ask\calendarhelper\handlers" />
+      <recent name="C:\Users\Zack\IdeaProjects\GradleTest\src\main\java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="GradleTest [jar]" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DaysUntilRequestIntentHandler">
+    <configuration name="DateRequestIntentHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amazon.ask.calendarhelper.handlers.DateRequestIntentHandler" />
+      <module name="GradleTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amazon.ask.calendarhelper.handlers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateRequestIntentHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amazon.ask.airplanefacts.handlers.DateRequestIntentHandler" />
+      <module name="GradleTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amazon.ask.airplanefacts.handlers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaysUntilRequestIntentHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amazon.ask.calendarhelper.handlers.DaysUntilRequestIntentHandler" />
+      <module name="GradleTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amazon.ask.calendarhelper.handlers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventRequestIntentHandler (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amazon.ask.airplanefacts.handlers.EventRequestIntentHandler" />
+      <module name="GradleTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amazon.ask.airplanefacts.handlers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventRequestIntentHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amazon.ask.calendarhelper.handlers.EventRequestIntentHandler" />
+      <module name="GradleTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amazon.ask.calendarhelper.handlers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="compareTester (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amazon.ask.calendarhelper.handlers.compareTester" />
+      <module name="GradleTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amazon.ask.calendarhelper.handlers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.compareTester (1)" />
+        <item itemvalue="Application.DateRequestIntentHandler" />
+        <item itemvalue="Application.DaysUntilRequestIntentHandler" />
+        <item itemvalue="Application.EventRequestIntentHandler (1)" />
+        <item itemvalue="Application.EventRequestIntentHandler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a716d1c-fec1-46d1-b8a7-05d2b45eb657" name="Default Changelist" comment="" />
+      <created>1585423464180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585423464180</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1585518889210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585518889210" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1585523229191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585523229191" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588902786692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588902786692" />
+    <state x="967" y="344" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1589319757834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="967" y="344" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589319757834" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585693352504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585693352504" />
+    <state width="1877" height="272" key="GridCell.Tab.0.bottom" timestamp="1589556523381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589556523381" />
+    <state width="1877" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589319333252" />
+    <state width="1877" height="272" key="GridCell.Tab.0.center" timestamp="1589556523381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589556523381" />
+    <state width="1877" height="272" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589319333252" />
+    <state width="1877" height="272" key="GridCell.Tab.0.left" timestamp="1589556523381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589556523381" />
+    <state width="1877" height="272" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589319333252" />
+    <state width="1877" height="272" key="GridCell.Tab.0.right" timestamp="1589556523381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589556523381" />
+    <state width="1877" height="272" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589319333252" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1589398210008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589398210008" />
+    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1588560720306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588560720306" />
+    <state x="342" y="132" key="new project wizard" timestamp="1588626061509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="132" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588626061509" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1588808992849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588808992849" />
+  </component>
+</project>
